@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Initiate Pipeline') {
             steps {
-                echo 'Hello World'
+                echo 'Initiate pipeline stage'
+                echo "${WORKSPACE}"
             }
         }
         stage('Get Source Code') {
