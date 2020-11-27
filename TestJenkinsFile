@@ -1,0 +1,31 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Initiate Pipeline') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Get Source Code') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Build Package - INTG') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Code Analysis') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+        stage('Deployment - INTG') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
